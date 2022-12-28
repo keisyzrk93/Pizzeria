@@ -1,0 +1,154 @@
+:root{
+    box-sizing: border-box;
+    color: white;
+}
+*::before ::after{
+    box-sizing: inherit;
+}
+body{
+    background-image: url("https://cdn.pixabay.com/photo/2017/04/05/01/20/wood-2203740_1280.jpg");
+}
+#header{
+    background-color: black;
+    padding: 5px;
+    font-family: cookie;
+    position: sticky;
+}
+.menu{
+    float: left;
+    width: 60%;
+    text-align: center;
+}
+
+.menu ul li{
+    display: inline-block;
+    padding-right: 20px;
+}
+.menu ul li a{
+    color: white;
+    font-size: 1.4rem;
+    text-decoration: none;
+}
+.menu a:hover{
+    color: rgb(177, 122, 51);
+}
+#logo{
+    float: left;
+    width: 20%;
+}
+#contact-info{
+    float: left;
+    width: 20%;
+}
+.contact-info .tel{
+    font-size: 1.2 rem;
+    margin: 25px auto 0px;
+}
+.clearfix::after{
+    content: " ";
+    display: block;
+    clear: both;
+}
+#logo img{
+    width: 60px;
+    margin-left: 10px;
+}
+.slider-box{
+    height: 200px;
+    background-color: black;
+    display: flex;
+    overflow: hidden;
+}
+.slider-half-item{
+    width: 50%;
+    float: left;
+    height: 100%;
+    font-family: cursive, Geneva;
+    padding: 10px;
+}
+.slider-half-item article{
+    margin: 2rem;
+}
+.slider-half-item article .button-section{
+    margin-top: 1rem;
+}
+.slider-half-item .button{
+    text-transform: uppercase;
+    padding: 8px;
+    text-decoration: none;
+    margin: 2px;
+    font-size: 0.7 rem;
+}
+.order-button{
+    color: #7FD7FF;
+    border: #7FD7FF solid;
+}
+.book-button{
+    color:#FFD77F;
+    border: #FFD77F solid;
+}
+.order-button:hover, .book-button:hover{
+    background-color:#333333;
+}
+.pizza-img{
+    background:url("https://cdn.pixabay.com/photo/2017/12/09/08/18/pizza-3007395_1280.jpg") ;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.advanatages-box{
+    background-color: transparent;
+}
+.advantages-one-third{
+    width: 30%;
+    float: left;
+    padding: 20px;
+    margin: 30px 0px 30px;
+}
+.column-advantage{
+    height: 200px;
+    border: 5px solid black;
+    text-align: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center center;
+    font-weight: bold;
+    font-size: 1.5rem;
+
+}
+
+.best-ingreedients{
+    background-image: url("https://cdn.pixabay.com/photo/2016/05/24/13/29/olive-oil-1412361__340.jpg");
+}
+.original-receipe{
+    background-image: url("https://cdn.pixabay.com/photo/2016/05/06/12/15/cook-1375788_960_720.jpg");
+    
+}
+.fast-delivery{
+    background-image: url("https://cdn.pixabay.com/photo/2020/02/10/18/31/motor-scooter-4837310_960_720.jpg");
+    
+}
+
+
+.kitchen-menu{
+    background-color: black;
+
+}
+
+.menu-one-fourth{
+    width: 20%;
+    float: left;
+    font-family:cookie;
+    text-align: center;
+    padding: 20px;
+    font-size: 1rem;
+}
+.menu-one-fourth img{
+    width: 100%;
+}
+.page-footer{
+    background-color: black;
+    width: 100%;
+    font-family: cookie;
+}
+   
